@@ -1,6 +1,6 @@
 # Heart-Disease-Predictor
-Heart Disease Predictor
-Overview
+## Heart Disease Predictor
+### Overview
 
 This project focuses on building a machine learning model to predict the presence of heart disease in patients based on clinical and demographic data. The goal is to assist healthcare professionals in identifying potential heart disease cases early, thereby improving patient outcomes.
 
@@ -8,11 +8,11 @@ The dataset used contains a mix of categorical and numerical features, such as a
 
 The final model achieved an accuracy of 85%, making it a reliable baseline tool for early detection of heart disease.
 
-Dataset
+## Dataset
 
 The dataset used is the Cleveland Heart Disease dataset, a widely known benchmark dataset in the medical machine learning community.
 
-Key features include:
+#### Key features include:
 
 Age
 
@@ -46,9 +46,9 @@ Target variable:
 
 1 = Presence of heart disease
 
-Approach
+## Approach
 
-Data Preprocessing
+### Data Preprocessing
 
 Handled missing values using imputation techniques.
 
@@ -56,7 +56,7 @@ Encoded categorical variables (e.g., chest pain type, thalassemia).
 
 Scaled numerical features for consistent input to models.
 
-Exploratory Data Analysis
+### Exploratory Data Analysis
 
 Visualized distributions of clinical features.
 
@@ -64,11 +64,10 @@ Compared feature importance against the target variable.
 
 Identified correlations between predictors.
 
-Model Development
+### Model Development
 
-Baseline model: Logistic Regression.
 
-Advanced models: Random Forest, XGBoost, Gradient Boosting.
+ models: Random Forest, XGBoost, SVM , Logistic Regression..
 
 Used cross-validation for reliable evaluation.
 
@@ -76,15 +75,11 @@ Evaluation Metrics
 
 Accuracy: 85%
 
-Precision, recall, and F1-score were also computed to evaluate model balance on imbalanced data.
-
-ROC-AUC curve used for threshold analysis.
+Precision, recall, and F1-score were also computed to evaluate model .
 
 Results
 
 The model successfully predicted heart disease with 85% accuracy.
-
-Feature importance analysis revealed that chest pain type, maximum heart rate, ST depression (oldpeak), and thalassemia were among the most influential features.
 
 The project demonstrates that machine learning can provide meaningful decision support for medical practitioners.
 
